@@ -1,16 +1,17 @@
 <template>
-  <Calculator msg="Calculadora 1"/>
-  <!-- <Calculator msg="Calculadora 2"/> -->
+<Heroes></Heroes>
+  <!-- <Calculator msg="Calculadora 1"/> -->
 </template>
 
 <script>
-import Calculator from './components/Calculator.vue'
+import Heroes from "./components/Heroes.vue";
+// import Calculator from './components/Calculator.vue'
 
 export default {
   name: 'App',
   components: {
-    Calculator
-  }
+    Heroes
+}
 }
 </script>
 
@@ -22,5 +23,13 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+    background-color: #2c3e50;
+  padding-top: 10px;
+  padding-bottom: 40px;
+  
+}
+html
+{
+
 }
 </style>
